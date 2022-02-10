@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    background: radial-gradient(#726A95,#719FB0 50%);
+    justify-content: center;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color:#351F39;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+    font-weight: 900;
+    font-size: 34px;
+    font-style: italic;
+    color: #6ab7d3;
+
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #351F39;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #719FB0;
+}
+.githubLogo {
+    margin: 0 8px 0 8px;
+}
+#top, #mid, #bot {
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+}
+#top {
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #331f36;
+    font-size: 30px;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center ;
+}
+h4 {
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #351f399d;
+    color: rgba(245, 245, 245, 0.685);
+    border-radius: 20%;
+    min-width: 80px;
+    min-height: 30px;
+
+}
+#mid{
+    width: 100%;
+    justify-content: center;
+}
+table {
+    border-collapse:separate;
+    border-spacing: 10px;
+    margin: 0;
+    width: 70%;
+    border-radius: 30%;
+}
+
+tr, td {
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 30%;
+    width: fit-content;
+    
+}
+.soundName {
+    background: linear-gradient(#719FB0,#A0C1B8) ;
+}
+
+
+/* Color Palettes
+
+351F39
+726A95
+719FB0
+A0C1B8
+
+
+
+https://colorhunt.co/collection 
+
+*** DOWNLAODED GOOGLE FONT ***
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+
+*/
